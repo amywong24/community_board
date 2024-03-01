@@ -1,0 +1,52 @@
+.App {
+  margin-left: 30px;
+  margin-right: 30px;
+  color: #000;
+}
+
+h1 {
+  font-size: 50px;
+  padding-bottom: 10px;
+  margin-left: 50px;
+}
+
+p {
+  font-size: 25px;
+}
+
+.card {
+  background-color: white;
+  padding-bottom: 20px;
+  box-shadow: 0 25px 35px #023dfe33;
+  font-size: medium;
+  backdrop-filter: blur(2px);
+  text-align: center;
+  margin-bottom: 30px;
+  height: 400px;
+  margin-right: 20px;
+  justify-content: center;
+}
+
+.card img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: .6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #3adef1;
+    cursor: pointer;
+}
